@@ -1,18 +1,18 @@
 # Tweet-Sentiment-Analyser
-Twitter Sentiment Analysis using Textblob and Tweepy, wrapped with Flask as a web app.
+Tweet Sentiment Analyser using Textblob and Tweepy, wrapped with Flask as a web app.
 
 ![Working Demo](https://i.ibb.co/Vx8stRF/Working.gif)
 
 ## Installation
 1. Clone/Download this repository.
-2. Obtain your Twitter API credentials.
-3. Replace appropriate credentials in ```main.py``` file.
+2. Obtain Twitter API credentials.
+3. Put the appropriate credentials in ```main.py``` file.
 4. Install all the required dependencies listed in ```requirements.txt```.
 5. Run the flask server using ```python main.py``` to see the result on port 5000(by default).
 
 ## A brief on the libraries used :
-Mainly I have used  TextBlob and Tweepy for the main functionality. TextBlob is a great choice for NLP tasks, built on top of the famous Python library for NLP, i.e., NLTK.
-Tweepy is used for Interacting easily with the Twitter API and handling complex tasks such as Authentication(OAuth) with a breeze.
+We have used TextBlob and Tweepy for the main functionality. TextBlob is a great choice for NLP tasks, built on top of the famous Python library for NLP, i.e., NLTK.
+Tweepy is used for Interacting easily with the Twitter API and handling complex tasks such as Authentication(OAuth) very easily.
 
 TextBlob allows us to perform sentiment analysis with very few lines of code.
 Applying ```.sentiment``` on a TextBlob gives us two things - **Polarity** and **Subjectivity**. <br><br>
